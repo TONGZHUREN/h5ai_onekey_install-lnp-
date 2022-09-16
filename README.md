@@ -9,7 +9,7 @@
 # 安装方式
 
 ```
-git clone https://github.com/yanshibin/h5ai_onekey_install-lnp-.git h5ai
+git clone https://github.com/TONGZHUREN/h5ai_onekey_install-lnp-.git h5ai
 cd h5ai
 bash h5ai.sh |tee h5ai.log
 ```
@@ -20,6 +20,13 @@ bash h5ai.sh |tee h5ai.log
 * h5ai目录：`/home/wwwroot/your_domain`
 
 # 更新日志
+
+### 2022.9.16 
+V3.0
+针对 谷歌云 denbian10 修改了代码 
+
+感谢作者
+
 ### 2017-12-15
 V2.0
 * 添加一键 SSL 配置功能
