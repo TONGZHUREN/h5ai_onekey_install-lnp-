@@ -226,6 +226,7 @@ h5ai_install(){
 }
 h5ai_dependency(){
     apt install libav-tools -y
+    apt install ffmpeg
     if [[ $? -eq 0 ]];then
         echo -e "${OK} ${GreenBG} 成功添加 Movie thumbs 支持 ${Font}"
         sleep 1
